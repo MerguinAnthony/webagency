@@ -6,6 +6,8 @@ font-family: 'Lora', serif;
 font-family: 'Montserrat', sans-serif;
 */
 
+/* RESET */
+
 *,
 ::before,
 ::after {
@@ -14,12 +16,15 @@ font-family: 'Montserrat', sans-serif;
   padding: 0;
 }
 
+/* GLOBAL */
+
 body {
-  width: 75vw;
+  width: 80vw;
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 700;
   color: #333;
   background-color: rgb(218, 214, 214);
 }
@@ -28,8 +33,6 @@ body {
 
 .container {
   height: 10vh;
-  padding: 0 2rem;
-  border: #333 solid 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,7 +66,6 @@ nav ul li a {
   text-decoration: none;
   color: #5e5e5e;
   font-size: 0.7rem;
-  font-weight: 700;
 }
 
 nav ul li a:hover {
@@ -72,11 +74,84 @@ nav ul li a:hover {
 
 /* Main */
 
+/* Reception */
+
 .reception {
   height: 90vh;
-  border: #333 solid 1px;
 }
 
 .reception-img {
   width: 100%;
+  position: relative;
+  top: 20vh;
+}
+
+.reception-content {
+  position: absolute;
+  left: 15vw;
+  top: 40vh;
+  width: 35vw;
+  z-index: 999;
+}
+
+h1 {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h1 span {
+  color: #2da5bd;
+}
+
+.reception-content p {
+  margin: 1rem 0;
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #2da5bd;
+  color: #fff;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #5e5e5e;
+}
+
+/* Services */
+
+.services {
+  height: 100vh;
+  border: #2da5bd solid 1px;
+}
+
+.services-content {
+  position: relative;
+}
+
+h2 {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333;
+  padding-top: 8vh;
+  border: #333 solid 1px;
+}
+
+.services-def {
+  width: 60vw;
+  margin: 5vh auto;
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+  color: #333;
+  text-align: center;
 }
