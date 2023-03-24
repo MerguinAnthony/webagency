@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&family=Lora:wght@700&family=Montserrat:wght@700&display=swap");
+
+/*
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 75vw;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: rgb(218, 214, 214);
+}
+
+/* Header */
+
+.container {
+  height: 10vh;
+  padding: 0 2rem;
+  border: #333 solid 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 8vh;
+  margin-top: 1vh;
+  display: flex;
+  justify-content: start;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5e5e5e;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+nav ul li a:hover {
+  color: #a4a4a4;
+}
+
+/* Main */
+
+.reception {
+  height: 90vh;
+  border: #333 solid 1px;
+}
+
+.reception-img {
+  width: 100%;
+}
